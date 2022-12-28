@@ -40,6 +40,11 @@
 <i class="mdui-list-item-icon mdui-icon material-icons fa-brands fa-github"></i>
 <div class="mdui-list-item-content mdui-m-r-4">GitHub</div>
 </a>
+
+<a href="https://jq.qq.com/?_wv=1027&k=h3ZUEWUn" class="mdui-list-item mdui-ripple">
+<i class="mdui-list-item-icon mdui-icon material-icons fa-brands fa-qq"></i>
+<div class="mdui-list-item-content mdui-m-r-4">QQ用户群</div>
+</a>
 </div>
 </div>
 </div>
