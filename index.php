@@ -72,9 +72,8 @@
 
             <?php endif; ?>
 
-
+            <foot>Copyright 2022 OtakusNetwork, All Rights Reserved. Made by iVampireSP & OtakusNetwork. Made with love.</foot>
     </div>
-    <foot>Copyright 2022 OtakusNetwork, All Rights Reserved. Made by iVampireSP & OtakusNetwork. Made with love.</foot>
     <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
 </body>
 
