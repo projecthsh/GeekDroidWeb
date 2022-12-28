@@ -24,7 +24,7 @@ $app = $result->fetch_assoc();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" />
-    <title><?php echo $app['name']; ?></title>
+    <title>GeekDroid - <?php echo $app['name']; ?></title>
 </head>
 
 <body class="mdui-theme-primary-indigo mdui-theme-accent-pink mdui-theme-layout-auto">

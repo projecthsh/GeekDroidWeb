@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" />
-    <title>搜索</title>
+    <title>GeekDroid</title>
 </head>
 
 <body class="mdui-theme-primary-indigo mdui-theme-accent-pink mdui-theme-layout-auto">
     <div class="mdui-container">
 
-        <h1>GeekDroid</h1>
+        <h1>GeekDroid - 搜索</h1>
         <h2>在下方搜索框搜索开始使用</h2>
 
             <form method="get" action="#">
@@ -74,7 +74,7 @@
 
 
     </div>
-
+    <foot>Copyright 2022 OtakusNetwork, All Rights Reserved. Made by iVampireSP & OtakusNetwork. Made with love.</foot>
     <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
 </body>
 
