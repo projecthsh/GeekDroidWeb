@@ -51,7 +51,7 @@ $app = $result->fetch_assoc();
 
 <a href="./show.php?package=github.znzsofficial.geekdroid" class="mdui-list-item mdui-ripple" id="home-url">
 <i class="mdui-list-item-icon mdui-icon material-icons">android</i>
-<div class="mdui-list-item-content mdui-m-r-4">GeekDroid安卓客户端</div>
+<div class="mdui-list-item-content mdui-m-r-4">GeekDroid 安卓客户端</div>
 </a>
 
 <a href="https://github.com/projecthsh" class="mdui-list-item mdui-ripple">
