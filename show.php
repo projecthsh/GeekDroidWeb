@@ -56,7 +56,7 @@ $app = $result->fetch_assoc();
 
 <a href="https://github.com/projecthsh" class="mdui-list-item mdui-ripple">
 <i class="mdui-list-item-icon mdui-icon material-icons fa-brands fa-github"></i>
-<div class="mdui-list-item-content mdui-m-r-4">Github</div>
+<div class="mdui-list-item-content mdui-m-r-4">GitHub</div>
 </a>
 </div>
 </div>
