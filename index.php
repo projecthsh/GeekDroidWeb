@@ -10,9 +10,16 @@
 </head>
 
 <body class="mdui-theme-primary-indigo mdui-theme-accent-pink mdui-theme-layout-auto">
+    	<!--顶栏开始-->
+<header class="mdui-appbar mdui-appbar-fixed">
+<div class="mdui-toolbar mdui-color-theme">
+<span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#drawer', swipe: true}"><i class="mdui-icon material-icons">menu</i></span>
+<a href="网址"target="_blank" class="mdui-typo-headline">GeekDroid - 搜索</a>
+<div class="mdui-toolbar-spacer"></div>
+<em class="mdui-icon material-icons" id="dark_toggle_icon"></em></div>
+</header>
+	<!--顶栏结束-->
     <div class="mdui-container">
-
-        <h1>GeekDroid - 搜索</h1>
         <h2>在下方搜索框搜索开始使用</h2>
 
             <form method="get" action="#">
@@ -72,7 +79,7 @@
 
             <?php endif; ?>
 
-            <foot>Copyright 2022 OtakusNetwork, All Rights Reserved. Made by iVampireSP & OtakusNetwork. Made with love.</foot>
+            <foot>Copyright © 2022 OtakusNetwork, All Rights Reserved.<br>Made by iVampireSP & OtakusNetwork.<br>Made with love.</foot>
     </div>
     <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
 </body>
