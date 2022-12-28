@@ -105,7 +105,7 @@
                 <div class="mdui-typo-caption-opacity">共 <?php echo $result->num_rows; ?> 个结果</div>
 
             <?php endif; ?>
-
+            <br><br>
             <foot>Copyright © 2022 OtakusNetwork, All Rights Reserved.<br>Made by iVampireSP & OtakusNetwork.<br>Made with love.</foot>
     </div>
     <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
