@@ -52,6 +52,19 @@
 
 
     <div class="mdui-container">
+    <div class="mdui-panel" mdui-panel>
+
+    <div class="mdui-panel-item mdui-panel-item-open">
+    <div class="mdui-panel-item-header">
+    <div class="mdui-panel-item-title">公告</div>
+    <div class="mdui-panel-item-summary"></div>
+    <i class="mdui-panel-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+    </div>
+    <div class="mdui-panel-item-body">
+    <p>GeekDroid仍处于内测阶段，如有 Bug 请在 GitHub 的 issues 中反馈，感谢您对我们的支持！🙏</p>
+    </div>
+</div>
+</div>
         <h2>在下方搜索框搜索开始使用</h2>
 
             <form method="get" action="#">
