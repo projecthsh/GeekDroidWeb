@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" />
+    <script src="https://kit.fontawesome.com/ca59f7439e.js" crossorigin="anonymous"></script>
     <title>GeekDroid</title>
 </head>
 
-<body class="mdui-theme-primary-indigo mdui-theme-accent-pink mdui-theme-layout-auto">
+<body class="mdui-drawer-body-left mdui-theme-primary-indigo mdui-theme-accent-pink mdui-theme-layout-auto mdui-appbar-with-toolbar">
     	<!--顶栏开始-->
 <header class="mdui-appbar mdui-appbar-fixed">
 <div class="mdui-toolbar mdui-color-theme">
@@ -19,6 +20,32 @@
 <em class="mdui-icon material-icons" id="dark_toggle_icon"></em></div>
 </header>
 	<!--顶栏结束-->
+<!--左侧菜单栏-->
+    <div class="mdui-drawer" id="drawer">
+<!--普通菜单开始-->
+<div class="mdui-list" mdui-collapse="{accordion: true}">
+</form>
+	<!--按钮区域-->
+    <a href="./index.php" class="mdui-list-item mdui-ripple" id="home-url">
+<i class="mdui-list-item-icon mdui-icon material-icons">home</i>
+<div class="mdui-list-item-content mdui-m-r-4">首页</div>
+</a>
+
+<a href="./show.php?package=github.znzsofficial.geekdroid" class="mdui-list-item mdui-ripple" id="home-url">
+<i class="mdui-list-item-icon mdui-icon material-icons">android</i>
+<div class="mdui-list-item-content mdui-m-r-4">GeekDroid安卓客户端</div>
+</a>
+
+<a href="https://github.com/projecthsh" class="mdui-list-item mdui-ripple">
+<i class="mdui-list-item-icon mdui-icon material-icons fa-brands fa-github"></i>
+<div class="mdui-list-item-content mdui-m-r-4">Github</div>
+</a>
+</div>
+</div>
+</div>
+	<!--普通菜单结束-->
+
+
     <div class="mdui-container">
         <h2>在下方搜索框搜索开始使用</h2>
 
