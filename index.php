@@ -12,7 +12,8 @@
 <body class="mdui-theme-primary-indigo mdui-theme-accent-pink mdui-theme-layout-auto">
     <div class="mdui-container">
 
-        <h1>搜索软件</h1>
+        <h1>GeekDroid</h1>
+        <h2>在下方搜索框搜索开始使用</h2>
 
             <form method="get" action="#">
                 <div class="mdui-textfield mdui-textfield-floating-label">
