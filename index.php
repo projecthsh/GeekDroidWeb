@@ -15,7 +15,7 @@
 <header class="mdui-appbar mdui-appbar-fixed">
 <div class="mdui-toolbar mdui-color-theme">
 <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#drawer', swipe: true}"><i class="mdui-icon material-icons">menu</i></span>
-<a href="网址"target="_blank" class="mdui-typo-headline">GeekDroid - 搜索</a>
+<a href="./index.php"target="_blank" class="mdui-typo-headline">GeekDroid - 搜索</a>
 <div class="mdui-toolbar-spacer"></div>
 <em class="mdui-icon material-icons" id="dark_toggle_icon"></em></div>
 </header>
