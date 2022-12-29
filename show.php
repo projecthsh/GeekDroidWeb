@@ -26,6 +26,16 @@ $app = $result->fetch_assoc();
     <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" />
     <script src="https://kit.fontawesome.com/ca59f7439e.js" crossorigin="anonymous"></script>
     <title>GeekDroid - <?php echo $app['name']; ?></title>
+    <style type="text/css">
+body {
+	background-image: url(bg.png);
+	  background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-position: center center;
+	 background-attachment: fixed;
+	  background-size: cover;
+}
+</style>
 </head>
 
 <body class="mdui-drawer-body-left mdui-theme-primary-indigo mdui-theme-accent-pink mdui-theme-layout-auto mdui-appbar-with-toolbar">
