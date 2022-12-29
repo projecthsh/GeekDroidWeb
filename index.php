@@ -131,15 +131,10 @@
 
             <?php endif; ?>
             <br><br>
-            <footer class="mdui-color-theme">
-<div class="footer-icons mdui-col-xs-3 mdui-valign">
-</div>
-<div class="footer-copyright mdui-col-xs-6 mdui-valign">
-<div class="mdui-center">Copyright © 2022 OtakusNetwork, All Rights Reserved.<br>Made by iVampireSP & OtakusNetwork.<br>Made with love.</div>
-</div>
-<div class="footer-credit mdui-col-xs-3 mdui-valign">
-<div class="mdui-center">
-    </div>
+
+<footer>Copyright © 2022 OtakusNetwork, All Rights Reserved.<br>Made by iVampireSP & OtakusNetwork.<br>Made with love.</div></footer>
+<a class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent mdui-fab-hide" id="scrolltop" href="#top"><i class="mdui-icon material-icons">expand_less</i></a>
+
     <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
 </body>
 
