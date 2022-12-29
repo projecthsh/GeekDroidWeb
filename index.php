@@ -30,6 +30,7 @@ body {
         color: #fff;
         line-height: 40px;
         text-align: center;
+        margin-right: 5px;
     }
     .item-icon > img{
         width: 100%;
