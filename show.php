@@ -40,6 +40,11 @@ $app = $result->fetch_assoc();
         @media (prefers-color-scheme: dark) {
             body {
                 background-image: url(bg-dark.png);
+                background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            background-attachment: fixed;
+            background-size: cover;
             }
         }
     </style>
