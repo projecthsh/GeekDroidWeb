@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://unpkg.com/mdui@1.0.2/dist/css/mdui.min.css" />
     <script src="https://kit.fontawesome.com/ca59f7439e.js" crossorigin="anonymous"></script>
     <title>GeekDroid</title>
+    <!-- 哀悼日网站变成灰色 -->
+<!--<style type="text/css">html{ filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: url("data:image/svg+xml;utf8,#grayscale"); filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); -webkit-filter: grayscale(1);} </style>-->
 </head>
 
 <body class="mdui-drawer-body-left mdui-theme-primary-indigo mdui-theme-accent-pink mdui-theme-layout-auto mdui-appbar-with-toolbar">
@@ -124,7 +126,14 @@
 
             <?php endif; ?>
             <br><br>
-            <foot>Copyright © 2022 OtakusNetwork, All Rights Reserved.<br>Made by iVampireSP & OtakusNetwork.<br>Made with love.</foot>
+            <footer class="mdui-color-theme">
+<div class="footer-icons mdui-col-xs-3 mdui-valign">
+</div>
+<div class="footer-copyright mdui-col-xs-6 mdui-valign">
+<div class="mdui-center">Copyright © 2022 OtakusNetwork, All Rights Reserved.<br>Made by iVampireSP & OtakusNetwork.<br>Made with love.</div>
+</div>
+<div class="footer-credit mdui-col-xs-3 mdui-valign">
+<div class="mdui-center">
     </div>
     <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
 </body>
