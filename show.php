@@ -35,7 +35,6 @@ $app = $result->fetch_assoc();
 <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#drawer', swipe: true}"><i class="mdui-icon material-icons">menu</i></span>
 <a href="./index.php" class="mdui-typo-headline">GeekDroid - <?php echo $app['name']; ?></a>
 <div class="mdui-toolbar-spacer"></div>
-<em class="mdui-icon material-icons" id="dark_toggle_icon"></em></div>
 </header>
 	<!--顶栏结束-->
 <!--左侧菜单栏-->

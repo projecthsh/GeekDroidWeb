@@ -17,9 +17,8 @@
 <header class="mdui-appbar mdui-appbar-fixed">
 <div class="mdui-toolbar mdui-color-theme">
 <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#drawer', swipe: true}"><i class="mdui-icon material-icons">menu</i></span>
-<a href="./index.php" class="mdui-typo-headline">GeekDroid - 搜索</a>
+<a href="./index.php" class="mdui-typo-headline">GeekDroid</a>
 <div class="mdui-toolbar-spacer"></div>
-<em class="mdui-icon material-icons" id="dark_toggle_icon"></em></div>
 </header>
 	<!--顶栏结束-->
 <!--左侧菜单栏-->
@@ -72,14 +71,41 @@
     </div>
 </div>
 </div>
-        <h2>在下方搜索框搜索开始使用</h2>
+<div class="mdui-card mdui-hoverable mdui-m-y-3">
+    <div class="mdui-card-primary">
+      <center>
+      <div class="mdui-card-primary-title"><div class="mdui-text-color-theme-accent">欢迎使用GeekDroid！</div></div>
+      <div class="mdui-card-actions">
+      <div class="mdui-chip">
+        <span class="mdui-chip-title">开源</span>
+      </div>
 
+      <div class="mdui-chip">
+        <span class="mdui-chip-title">免费</span>
+      </div>
+
+      <div class="mdui-chip">
+        <span class="mdui-chip-title">自由</span>
+      </div>
+      <br>
+<br>
+<a href="https://t.me/OtakusNetwork" class="mdui-btn mdui-color-theme-accent mdui-ripple"><i class="fab fa-telegram"></i>公告板</a>
+
+  <a href="https://t.me/geekdroid_group" class="mdui-btn mdui-color-theme-accent mdui-ripple"><i class="fab fa-telegram"></i>讨论组</a>
+
+    <a href="https://jq.qq.com/?_wv=1027&k=h3ZUEWUn" class="mdui-btn mdui-color-theme-accent mdui-ripple"><i class="fab fa-qq"></i>QQ群</a>
+      </center>
+
+    </div>
+    </div>
+    <div class="mdui-card mdui-hoverable mdui-m-y-3">
+    <div class="mdui-card-primary">
+    <div class="mdui-card-primary-title"><div class="mdui-text-color-theme-accent">在下方搜索框搜索开始使用</div></div>
             <form method="get" action="#">
                 <div class="mdui-textfield mdui-textfield-floating-label">
                     <label class="mdui-textfield-label">软件名或包名</label>
                     <input class="mdui-textfield-input" type="text" name="search" required value="<?php echo $_GET['search'] ?? ''; ?>" />
                 </div>
-
                 <!-- button -->
                 <button class=" mdui-btn mdui-btn-raised mdui-ripple mdui-color-theme-accent">搜索</button>
             </form>
@@ -130,6 +156,9 @@
                 <div class="mdui-typo-caption-opacity">共 <?php echo $result->num_rows; ?> 个结果</div>
 
             <?php endif; ?>
+    </div>
+    </div>
+        
             <br><br>
 
 <footer>Copyright © 2022 OtakusNetwork, All Rights Reserved.<br>Made by iVampireSP & OtakusNetwork.<br>Made with love.</div></footer>
