@@ -88,12 +88,6 @@
         <span class="mdui-chip-title">自由</span>
       </div>
       <br>
-<br>
-<a href="https://t.me/OtakusNetwork" class="mdui-btn mdui-color-theme-accent mdui-ripple"><i class="fab fa-telegram"></i>公告板</a>
-
-  <a href="https://t.me/geekdroid_group" class="mdui-btn mdui-color-theme-accent mdui-ripple"><i class="fab fa-telegram"></i>讨论组</a>
-
-    <a href="https://jq.qq.com/?_wv=1027&k=h3ZUEWUn" class="mdui-btn mdui-color-theme-accent mdui-ripple"><i class="fab fa-qq"></i>QQ群</a>
       </center>
 
     </div>
