@@ -20,6 +20,22 @@ body {
 	  background-size: cover;
 }
 </style>
+	<style>
+    .item-icon{
+        min-width: 40px;
+        max-width: 40px;
+        height: 40px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        color: #fff;
+        line-height: 40px;
+        text-align: center;
+    }
+    .item-icon > img{
+        width: 100%;
+        height: 100%;
+    }
+</style>
 </head>
 
 <body class="mdui-drawer-body-left mdui-theme-primary-indigo mdui-theme-accent-pink mdui-theme-layout-auto mdui-appbar-with-toolbar">
@@ -141,7 +157,7 @@ body {
 
                         <a href="/show.php?package=<?php echo $row['package']; ?>">
                             <li class="mdui-list-item mdui-ripple">
-                                <div class="mdui-list-item-avatar">
+                                <div class="item-icon">
                                     <img src="<?php echo $row['logo']; ?>" alt="<?php echo $row['name']; ?>" />
                                 </div>
                                 <div class="mdui-list-item-content">
