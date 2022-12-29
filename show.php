@@ -35,53 +35,60 @@ $app = $result->fetch_assoc();
             background-attachment: fixed;
             background-size: cover;
         }
+
+        /* dark */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-image: url(bg-dark.png);
+            }
+        }
     </style>
     <link rel="stylesheet" href="./index.css">
 </head>
 
 <body class="mdui-drawer-body-left mdui-theme-primary-indigo mdui-theme-accent-pink mdui-theme-layout-auto mdui-appbar-with-toolbar">
-    	<!--顶栏开始-->
-        <header class="mdui-appbar mdui-appbar-fixed">
-<div class="mdui-toolbar mdui-color-theme">
-<span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#drawer', swipe: true}"><i class="mdui-icon material-icons">menu</i></span>
-<a href="./index.php" class="mdui-typo-headline">GeekDroid - <?php echo $app['name']; ?></a>
-<div class="mdui-toolbar-spacer"></div>
-</header>
-	<!--顶栏结束-->
-<!--左侧菜单栏-->
+    <!--顶栏开始-->
+    <header class="mdui-appbar mdui-appbar-fixed">
+        <div class="mdui-toolbar mdui-color-theme">
+            <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#drawer', swipe: true}"><i class="mdui-icon material-icons">menu</i></span>
+            <a href="./index.php" class="mdui-typo-headline">GeekDroid - <?php echo $app['name']; ?></a>
+            <div class="mdui-toolbar-spacer"></div>
+    </header>
+    <!--顶栏结束-->
+    <!--左侧菜单栏-->
     <div class="mdui-drawer" id="drawer">
-<!--普通菜单开始-->
-<div class="mdui-list" mdui-collapse="{accordion: true}">
-</form>
-	<!--按钮区域-->
-<a href="./index.php" class="mdui-list-item mdui-ripple" id="home-url">
-<i class="mdui-list-item-icon mdui-icon material-icons">home</i>
-<div class="mdui-list-item-content mdui-m-r-4">首页</div>
-</a>
+        <!--普通菜单开始-->
+        <div class="mdui-list" mdui-collapse="{accordion: true}">
+            </form>
+            <!--按钮区域-->
+            <a href="./index.php" class="mdui-list-item mdui-ripple" id="home-url">
+                <i class="mdui-list-item-icon mdui-icon material-icons">home</i>
+                <div class="mdui-list-item-content mdui-m-r-4">首页</div>
+            </a>
 
-<a href="./show.php?package=github.znzsofficial.geekdroid" class="mdui-list-item mdui-ripple" id="home-url">
-<i class="mdui-list-item-icon mdui-icon material-icons">android</i>
-<div class="mdui-list-item-content mdui-m-r-4">GeekDroid 安卓客户端</div>
-</a>
+            <a href="./show.php?package=github.znzsofficial.geekdroid" class="mdui-list-item mdui-ripple" id="home-url">
+                <i class="mdui-list-item-icon mdui-icon material-icons">android</i>
+                <div class="mdui-list-item-content mdui-m-r-4">GeekDroid 安卓客户端</div>
+            </a>
 
-<a href="https://github.com/projecthsh" class="mdui-list-item mdui-ripple">
-<i class="mdui-list-item-icon mdui-icon material-icons fa-brands fa-github"></i>
-<div class="mdui-list-item-content mdui-m-r-4">GitHub</div>
-</a>
+            <a href="https://github.com/projecthsh" class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons fa-brands fa-github"></i>
+                <div class="mdui-list-item-content mdui-m-r-4">GitHub</div>
+            </a>
 
-<a href="https://jq.qq.com/?_wv=1027&k=h3ZUEWUn" class="mdui-list-item mdui-ripple">
-<i class="mdui-list-item-icon mdui-icon material-icons fa-brands fa-qq"></i>
-<div class="mdui-list-item-content mdui-m-r-4">QQ用户群</div>
-</a>
+            <a href="https://jq.qq.com/?_wv=1027&k=h3ZUEWUn" class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons fa-brands fa-qq"></i>
+                <div class="mdui-list-item-content mdui-m-r-4">QQ用户群</div>
+            </a>
 
-<a href="https://t.me/geekdroid_group" class="mdui-list-item mdui-ripple">
-<i class="mdui-list-item-icon mdui-icon material-icons fa-brands fa-telegram"></i>
-<div class="mdui-list-item-content mdui-m-r-4">TG用户群</div>
-</a>
-</div>
-</div>
-</div>
-	<!--普通菜单结束-->
+            <a href="https://t.me/geekdroid_group" class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons fa-brands fa-telegram"></i>
+                <div class="mdui-list-item-content mdui-m-r-4">TG用户群</div>
+            </a>
+        </div>
+    </div>
+    </div>
+    <!--普通菜单结束-->
     <div class="mdui-container" style="margin-top: 25px;">
 
 
