@@ -22,14 +22,13 @@ body {}
   backdrop-filter: blur(10px);
 }
 
-
 body {
   background-image: url(bg.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-attachment: fixed;
-  background-size: cover;
-  background-position: top 0px right -200px;
+  background-size: auto 100%;
+  background-position: top 0px right -100px;
 }
 
 /* dark */
@@ -38,9 +37,8 @@ body {
     background-image: url(bg-dark.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
     background-attachment: fixed;
-    background-size: cover;
+    background-position: top 0px right -20px;
   }
   .glass-blur.mdui-card {
     background-color: #42424211;
