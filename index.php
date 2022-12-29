@@ -10,28 +10,6 @@
     <title>GeekDroid</title>
     <!-- 哀悼日网站变成灰色 -->
     <!--<style type="text/css">html{ filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: url("data:image/svg+xml;utf8,#grayscale"); filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); -webkit-filter: grayscale(1);} </style>-->
-    <style type="text/css">
-        body {
-            background-image: url(bg.png);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center center;
-            background-attachment: fixed;
-            background-size: cover;
-        }
-
-        /* dark */
-        @media (prefers-color-scheme: dark) {
-            body {
-                background-image: url(bg-dark.png);
-                background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center center;
-            background-attachment: fixed;
-            background-size: cover;
-            }
-        }
-    </style>
     <link rel="stylesheet" href="./index.css">
 </head>
 
