@@ -19,6 +19,13 @@
             background-attachment: fixed;
             background-size: cover;
         }
+
+        /* dark */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-image: url(bg-dark.png);
+            }
+        }
     </style>
     <link rel="stylesheet" href="./index.css">
 </head>
