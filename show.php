@@ -121,6 +121,7 @@ $app = $result->fetch_assoc();
     </div>
     <a class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent mdui-fab-hide" id="scrolltop" href="#top"><i class="mdui-icon material-icons">expand_less</i></a>
     <script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
+    <a href="https://icp.gov.moe/?keyword=20230019" target="_blank">萌ICP备20230019号</a>
 </body>
 
 </html>
